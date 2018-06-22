@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Montserrat:400,500');
+
+html {
+  margin: 0;
+}
+
+body {
+ margin: 0;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+#title {
+  position: relative;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+#title p {
+  color: white;
+  font-weight: normal;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 4px 0 4px 0;
+  color: white;
+}
+
+#container {
+  width: calc(100% - 64px);
+  max-width: 640px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+a {
+  border: 1px solid #aaa;
+  margin: 16px 0 16px 0;
+  padding-right: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.2s;
+  box-shadow: 2px 2px 6px 1px #e4e4e4;
+}
+
+a:hover {
+  background-color: #f7f7f7;
+}
+
+.box {
+  height: 64px;
+  width: 64px;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  color: #17212d;
+}
+
+p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #17212d;
+  font-weight: 500;
+}
