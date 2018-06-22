@@ -16,10 +16,12 @@
     for (submenu of submenus) {
       submenu.classList.remove('active');
     }
+    // services.classList.remove('active');
   });
   // Header submenus
   let services = document.getElementById('link-services');
   services.addEventListener('click', () => {
     document.getElementById('submenu-services').classList.add('active');
+    // services.classList.add('active');
   });
 })();

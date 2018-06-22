@@ -11,7 +11,7 @@
 // FAQ dropdown
 ul.faq {
   width: 100%;
-  max-width: 46em;
+  max-width: 49em;
   li {
     border-radius: 4px;
     padding: $pad-m;
@@ -44,15 +44,19 @@ ul.faq {
 .final {
   .cards {
     padding: $pad-m;
-    max-width: 46em;
     height: 100%;
     align-items: stretch;
     > .card {
       padding: $pad-m;
       border-radius: 4px;
       justify-content: space-between;
+      text-align: center;
+      max-width: 25.5em;
       & ~ div {
         margin-left: $pad-l;
+      }
+      h2 {
+        max-width: 90%;
       }
       .circle {
         margin-top: $pad-m;

@@ -1,5 +1,5 @@
 // Imports
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,600,700');
 // Variables
 $pad-l: 48px;
 $pad-m: 28px;
@@ -22,7 +22,10 @@ a {
   text-decoration: none;
   color: $black;
 }
-h1, h2, h3 { text-align: center; }
+h1, h2, h3 {
+  text-align: center;
+  letter-spacing: normal;
+}
 h1 {
   max-width: 23em;
   font: bold 48px 'Montserrat';
@@ -36,9 +39,10 @@ h3 {
   font: bold 22px 'Montserrat';
 }
 p {
-  max-width: 46em;
-  font: 300 14px 'Montserrat';
+  max-width: 52em;
+  font: 100 14px/18px 'Montserrat';
   color: $dark-grey;
+  b { font-weight: 400; }
 }
 h1, h2, h3, p {
   margin: 0;
@@ -50,6 +54,7 @@ h1, h2, h3, p {
 body {
   margin: 0;
   color: $black;
+  letter-spacing: 0.05em;
   > section {
     padding: $pad-l;
     width: 100%;
