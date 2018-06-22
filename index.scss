@@ -29,16 +29,18 @@
 // LR list
 .lr {
   li {
-    & ~ li { margin-top: $pad-l; }
+    justify-content: center;
+    & ~ li { margin-top: 128px; }
     img {
+      margin: $pad-m;
       flex-shrink: 0;
-      margin: $pad-l;
       height: 280px;
       width: 280px;
       border-radius: 50%;
     }
     .text {
-      padding: $pad-m;
+      padding: $pad-l;
+      width: 750px;
     }
   }
 }
@@ -49,8 +51,8 @@
   .card {
     margin-top: 70px;
     position: relative;
-    max-width: 22em;
-    padding: $pad-l;
+    max-width: 26em;
+    padding: $pad-s;
     border-radius: 4px;
     align-items: stretch;
     justify-content: space-between;
@@ -67,13 +69,13 @@
       & ~ img { margin-left: $pad-m; }
     }
     .button {
-      margin-top: $pad-l;
+      margin: $pad-l $pad-m $pad-s $pad-m;
       align-self: stretch;
       text-align: center;
     }
     .circle {
       position: absolute;
-      top: -70px;
+      top: -96px;
       left: calc(50% - 80px);
       height: 160px;
       width: 160px;

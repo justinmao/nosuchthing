@@ -46,7 +46,7 @@ body {
         color: #B2BAC9; }
     body > section > * {
       margin: auto;
-      max-width: 1280px; }
+      max-width: 1240px; }
 
 * {
   box-sizing: border-box; }
@@ -181,7 +181,7 @@ body {
         color: #B2BAC9; }
     body > section > * {
       margin: auto;
-      max-width: 1280px; }
+      max-width: 1240px; }
 
 * {
   box-sizing: border-box; }
@@ -343,16 +343,19 @@ header.desktop {
     height: 64px;
     width: 64px; }
 
-.lr li ~ li {
-  margin-top: 48px; }
-.lr li img {
-  flex-shrink: 0;
-  margin: 48px;
-  height: 280px;
-  width: 280px;
-  border-radius: 50%; }
-.lr li .text {
-  padding: 28px; }
+.lr li {
+  justify-content: center; }
+  .lr li ~ li {
+    margin-top: 128px; }
+  .lr li img {
+    margin: 28px;
+    flex-shrink: 0;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%; }
+  .lr li .text {
+    padding: 48px;
+    width: 750px; }
 
 .cards {
   margin: 48px;
@@ -360,8 +363,8 @@ header.desktop {
   .cards .card {
     margin-top: 70px;
     position: relative;
-    max-width: 22em;
-    padding: 48px;
+    max-width: 26em;
+    padding: 16px;
     border-radius: 4px;
     align-items: stretch;
     justify-content: space-between; }
@@ -377,12 +380,12 @@ header.desktop {
       .cards .card img ~ img {
         margin-left: 28px; }
     .cards .card .button {
-      margin-top: 48px;
+      margin: 48px 28px 16px 28px;
       align-self: stretch;
       text-align: center; }
     .cards .card .circle {
       position: absolute;
-      top: -70px;
+      top: -96px;
       left: calc(50% - 80px);
       height: 160px;
       width: 160px;
