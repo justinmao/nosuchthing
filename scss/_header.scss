@@ -1,0 +1,54 @@
+// Imports
+@import 'scss/main';
+// Desktop header
+header.desktop {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.6s ease-in;
+  a { font: 300 14px 'Montserrat'; }
+  &.lift {
+    box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.075);
+  }
+  nav {
+    padding: $pad-m;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    img {
+      width: 160px;
+    }
+    a {
+      color: $dark-grey;
+      ~ a { margin-left: $pad-m; }
+    }
+    .button {
+      align-self: center;
+      color: white;
+    }
+  }
+  .submenu {
+    max-height: 0px;
+    opacity: 0;
+    overflow-y: hidden;
+    padding: 0 $pad-m;
+    justify-content: flex-end;
+    transition: all 0.2s ease;
+    a {
+      padding: 10px 0;
+      font-size: 0.8em;
+      color: $dark-grey;
+      ~ a {
+        margin-left: $pad-m;
+      }
+    }
+    &.active {
+      max-height: 35px;
+      opacity: 1;
+      background: $light-grey;
+    }
+  }
+}

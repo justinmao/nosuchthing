@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600,700");
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #2A3445; }
 
@@ -49,6 +51,7 @@ img {
   user-select: none; }
 
 ul {
+  padding: 0;
   list-style: none; }
   ul.lr li {
     display: flex;
@@ -111,7 +114,7 @@ ul {
     border-radius: 480px; }
 
 .shadowed {
-  box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.075); }
 
 .dropdown {
   max-height: 0;
@@ -189,6 +192,181 @@ ul.faq {
   border-radius: 50%; }
   .lr-circle img {
     width: 160px; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #2A3445; }
+
+h1, h2, h3 {
+  text-align: center; }
+
+h1 {
+  max-width: 23em;
+  font: bold 48px 'Montserrat'; }
+
+h2 {
+  max-width: 40em;
+  font: bold 28px 'Montserrat'; }
+
+h3 {
+  max-width: 40em;
+  font: bold 22px 'Montserrat'; }
+
+p {
+  max-width: 46em;
+  font: 300 14px 'Montserrat';
+  color: #B2BAC9; }
+
+h1, h2, h3, p {
+  margin: 0; }
+  h1 ~ *, h2 ~ *, h3 ~ *, p ~ * {
+    margin-top: 28px; }
+
+body {
+  margin: 0;
+  color: #2A3445; }
+  body > section {
+    padding: 48px;
+    width: 100%; }
+    body > section.dark {
+      background: #F6F7F8; }
+      body > section.dark h3 {
+        color: #B2BAC9; }
+    body > section > * {
+      margin: auto;
+      max-width: 1280px; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  user-select: none; }
+
+ul {
+  padding: 0;
+  list-style: none; }
+  ul.lr li {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    ul.lr li:nth-child(even) {
+      flex-direction: row-reverse; }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .col.text {
+    align-items: flex-start; }
+    .col.text h1, .col.text h2, .col.text h3 {
+      text-align: left; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.button {
+  box-sizing: border-box;
+  padding: 0.3em 2em;
+  border-radius: 4px;
+  color: white;
+  font: 600 22px 'Montserrat';
+  text-decoration: none;
+  display: block; }
+  .button.red {
+    background: #FF4B7A; }
+  .button.light-blue {
+    background: #DAE6FA;
+    color: #606FEE; }
+  .button.blue {
+    background: #606FEE; }
+  .button.blue-gradient {
+    background: linear-gradient(135deg, #5488f7 0%, #606bf6 100%); }
+  .button.green {
+    background: #28DC82; }
+  .button.yellow {
+    background: #FCEDB9;
+    color: #918F4D; }
+  .button.small {
+    padding: 0.6em 2em;
+    font-size: 14px; }
+  .button.small-alt {
+    padding: 1em 3em;
+    font-size: 14px; }
+  .button.large {
+    padding: 0.8em 4em;
+    border-radius: 5px; }
+  .button.round {
+    border-radius: 480px; }
+
+.shadowed {
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.075); }
+
+.dropdown {
+  max-height: 0;
+  transition: max-height 0s;
+  overflow-y: hidden; }
+  .dropdown.hidden {
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in; }
+  .dropdown > *:first-child {
+    margin-top: 28px; }
+
+.arrow {
+  transition: transform 0.15s; }
+  .arrow.flipped {
+    transform: rotate(-180deg); }
+
+header.desktop {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.6s ease-in; }
+  header.desktop a {
+    font: 300 14px 'Montserrat'; }
+  header.desktop.lift {
+    box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.075); }
+  header.desktop nav {
+    padding: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white; }
+    header.desktop nav img {
+      width: 160px; }
+    header.desktop nav a {
+      color: #B2BAC9; }
+      header.desktop nav a ~ a {
+        margin-left: 28px; }
+    header.desktop nav .button {
+      align-self: center;
+      color: white; }
+  header.desktop .submenu {
+    max-height: 0px;
+    opacity: 0;
+    overflow-y: hidden;
+    padding: 0 28px;
+    justify-content: flex-end;
+    transition: all 0.2s ease; }
+    header.desktop .submenu a {
+      padding: 10px 0;
+      font-size: 0.8em;
+      color: #B2BAC9; }
+      header.desktop .submenu a ~ a {
+        margin-left: 28px; }
+    header.desktop .submenu.active {
+      max-height: 35px;
+      opacity: 1;
+      background: #F6F7F8; }
 
 .banner {
   padding: 28px; }
