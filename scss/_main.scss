@@ -1,0 +1,159 @@
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700');
+// Variables
+$pad-l: 48px;
+$pad-m: 28px;
+$pad-s: 16px;
+// Colors
+$black: #2A3445;
+$dark-grey: #B2BAC9;
+$light-grey: #F6F7F8;
+$blue: #606FEE;
+$blue-gradient: linear-gradient(135deg, rgba(84,136,247,1) 0%, rgba(96,107,246,1) 100%);
+$green: #28DC82;
+$light-green: #CCFFE9;
+$yellow: #FCEDB9;
+$dark-yellow: #918F4D;
+$light-blue: #DAE6FA;
+$red: #FF4B7A;
+// Text
+a {
+  text-decoration: none;
+  color: $black;
+}
+h1, h2, h3 { text-align: center; }
+h1 {
+  max-width: 23em;
+  font: bold 48px 'Montserrat';
+}
+h2 {
+  max-width: 40em;
+  font: bold 28px 'Montserrat';
+}
+h3 {
+  max-width: 40em;
+  font: bold 22px 'Montserrat';
+}
+p {
+  max-width: 46em;
+  font: 300 14px 'Montserrat';
+  color: $dark-grey;
+}
+h1, h2, h3, p {
+  margin: 0;
+  ~ * {
+    margin-top: $pad-m;
+  }
+}
+// Elements
+body {
+  margin: 0;
+  color: $black;
+  > section {
+    padding: $pad-l;
+    width: 100%;
+    &.dark {
+      background: $light-grey;
+      h3 { color: $dark-grey; }
+    }
+    > * {
+      margin: auto;
+      max-width: 1280px;
+    }
+  }
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  user-select: none;
+}
+ul {
+  list-style: none;
+  &.lr {
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &.text {
+    align-items: flex-start;
+    h1, h2, h3 { text-align: left; }
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  box-sizing: border-box;
+  padding: 0.3em 2em;
+  border-radius: 4px;
+  color: white;
+  font: 600 22px 'Montserrat';
+  text-decoration: none;
+  display: block;
+  &.red { background: $red; }
+  &.light-blue {
+    background: $light-blue;
+    color: $blue;
+  }
+  &.blue { background: $blue; }
+  &.blue-gradient { background: $blue-gradient; }
+  &.green { background: $green; }
+  &.yellow {
+    background: $yellow;
+    color: $dark-yellow;
+  }
+  &.small {
+    padding: 0.6em 2em;
+    font-size: 14px;
+  }
+  &.small-alt {
+    padding: 1em 3em;
+    font-size: 14px;
+  }
+  &.large {
+    padding: 0.8em 4em;
+    border-radius: 5px;
+  }
+  &.round {
+    border-radius: 480px;
+  }
+}
+// Properties
+.shadowed { box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.25); }
+// .shadowed { box-shadow: 0px 4px 36px -4px rgba(0, 0, 0, 0.3); }
+.dropdown {
+  max-height: 0;
+  transition: max-height 0s;
+  overflow-y: hidden;
+  &.hidden {
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in;
+  }
+  & > *:first-child {
+    margin-top: $pad-m;
+  }
+}
+.arrow {
+  transition: transform 0.15s;
+  &.flipped {
+    transform: rotate(-180deg);
+  }
+}

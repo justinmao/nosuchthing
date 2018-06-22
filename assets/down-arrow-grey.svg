@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.065 22.728">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b2bac9;
+      }
+    </style>
+  </defs>
+  <g id="Grey_Arrow_Down" data-name="Grey Arrow – Down" transform="translate(-0.302 -0.243)">
+    <rect id="Right" class="cls-1" width="42.578" height="8" rx="4" transform="translate(32.75 15.502) rotate(-21)"/>
+    <rect id="Left" class="cls-1" width="42.578" height="8" rx="4" transform="translate(3.169 0.243) rotate(21)"/>
+  </g>
+</svg>

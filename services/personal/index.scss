@@ -1,0 +1,35 @@
+// Imports
+@import 'scss/main';
+@import 'scss/services';
+// Banner
+.banner {
+  padding: $pad-m;
+  video {
+    margin-left: $pad-m;
+    width: 50%;
+    border-radius: 4px;
+    background: $light-grey;
+  }
+}
+// Intro section
+.intro {
+  .vectors {
+    img {
+      margin-top: $pad-m;
+      width: 64px;
+      & ~ img {
+        margin-left: 128px;
+      }
+    }
+  }
+}
+// Why NST section
+.lr {
+  li {
+    margin-top: $pad-l;
+    padding: $pad-m;
+    .text { align-items: flex-start }
+    .spacer { width: 96px; }
+    // & ~ li { }
+  }
+}

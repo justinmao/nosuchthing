@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.654 19.646">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #606bf6;
+      }
+    </style>
+  </defs>
+  <g id="Arrow_Down" data-name="Arrow – Down" transform="translate(-0.913 -0.977)">
+    <rect id="Left" class="cls-1" width="21.969" height="6.375" rx="3.188" transform="translate(5.261 0.977) rotate(43)"/>
+    <rect id="Right" class="cls-1" width="21.969" height="6.375" rx="3.188" transform="translate(33.567 5.639) rotate(137)"/>
+  </g>
+</svg>

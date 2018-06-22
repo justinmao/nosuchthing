@@ -1,0 +1,92 @@
+// Imports
+@import 'scss/main';
+// Banner
+.banner {
+  .text {
+    margin: $pad-l;
+    flex-grow: 1;
+  }
+  img {
+    margin: $pad-l;
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .button { margin: $pad-m 0; }
+}
+// Icons
+.icons {
+  padding: 0 $pad-l;
+  justify-content: space-between;
+  img {
+    // padding: $pad-m;
+    height: 64px;
+    width: 64px;
+  }
+}
+// LR list
+.lr {
+  li {
+    & ~ li { margin-top: $pad-l; }
+    img {
+      flex-shrink: 0;
+      margin: $pad-l;
+      height: 280px;
+      width: 280px;
+      border-radius: 50%;
+    }
+    .text {
+      padding: $pad-m;
+    }
+  }
+}
+// Cards
+.cards {
+  margin: $pad-l;
+  align-items: stretch;
+  .card {
+    margin-top: 70px;
+    position: relative;
+    max-width: 22em;
+    padding: $pad-l;
+    border-radius: 4px;
+    align-items: stretch;
+    justify-content: space-between;
+    & ~ .card { margin-left: $pad-l; }
+    h2 {
+      margin-top: 70px;
+    }
+    p {
+      text-align: center;
+    }
+    img {
+      margin-top: $pad-l;
+      width: 48px;
+      & ~ img { margin-left: $pad-m; }
+    }
+    .button {
+      margin-top: $pad-l;
+      align-self: stretch;
+      text-align: center;
+    }
+    .circle {
+      position: absolute;
+      top: -70px;
+      left: calc(50% - 80px);
+      height: 160px;
+      width: 160px;
+      border-radius: 50%;
+      background: white;
+      img {
+        position: relative;
+        top: -25px;
+        width: 86px;
+      }
+    }
+  }
+}
+// Trial section
+.trial {
+  padding-bottom: $pad-l;
+}

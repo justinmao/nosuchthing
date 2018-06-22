@@ -1,0 +1,57 @@
+// Imports
+@import 'scss/main';
+@import 'scss/services';
+// Details section
+.details {
+  .button {
+    margin-bottom: $pad-l;
+    ~ .button { margin-left: $pad-l; }
+  }
+  .arrow { width: 48px; }
+}
+// How it works section
+.lr {
+  position: relative;
+  margin: $pad-l 0 128px 0;
+  padding: $pad-m;
+  li {
+    padding: $pad-l 0;
+    > * { width: 50%; }
+    .spacer { width: 256px; }
+  }
+  .bar {
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    border-radius: 12px;
+    background: $light-green;
+    &#progress-bar {
+      width: 10px;
+      background: $green;
+    }
+  }
+}
+// Pricing section
+.pricing {
+  .hex {
+    position: relative;
+    h1 {
+      position: absolute;
+      top: calc(50% - 13px);
+      color: white;
+    }
+    img {
+      width: 250px;
+    }
+  }
+  p {
+    text-align: center;
+    a {
+      padding: 2px 12px;
+      border-radius: 12px;
+      background: $yellow;
+      color: $dark-yellow;
+      font-size: 0.75em;
+    }
+  }
+}
