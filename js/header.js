@@ -1,8 +1,5 @@
 (function () {
   let desktopHeader = document.getElementById('header-desktop');
-  // Spacer
-  let headspace = document.getElementById('headspace');
-  headspace.style.height = desktopHeader.clientHeight + "px";
   // Shadow listener
   document.addEventListener('scroll', () => {
     y = window.pageYOffset;
