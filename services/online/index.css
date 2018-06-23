@@ -131,7 +131,7 @@ ul {
     margin-top: 28px; }
 
 .arrow {
-  transition: transform 0.15s; }
+  transition: transform 0.225s; }
   .arrow.flipped {
     transform: rotate(-180deg); }
 
@@ -329,7 +329,7 @@ ul {
     margin-top: 28px; }
 
 .arrow {
-  transition: transform 0.15s; }
+  transition: transform 0.225s; }
   .arrow.flipped {
     transform: rotate(-180deg); }
 

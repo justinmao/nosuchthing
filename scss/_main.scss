@@ -159,7 +159,7 @@ ul {
   }
 }
 .arrow {
-  transition: transform 0.15s;
+  transition: transform 0.225s;
   &.flipped {
     transform: rotate(-180deg);
   }
