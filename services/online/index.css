@@ -109,7 +109,7 @@ ul {
     padding: 0.6em 2em;
     font-size: 14px; }
   .button.small-alt {
-    padding: 1em 3em;
+    padding: 1em 4em;
     font-size: 14px; }
   .button.large {
     padding: 0.8em 4em;
@@ -309,7 +309,7 @@ ul {
     padding: 0.6em 2em;
     font-size: 14px; }
   .button.small-alt {
-    padding: 1em 3em;
+    padding: 1em 4em;
     font-size: 14px; }
   .button.large {
     padding: 0.8em 4em;
@@ -397,7 +397,7 @@ header.desktop {
 .details .button {
   margin-bottom: 48px; }
   .details .button ~ .button {
-    margin-left: 48px; }
+    margin-left: 172px; }
 .details .arrow {
   width: 48px; }
 

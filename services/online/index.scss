@@ -6,7 +6,9 @@
 .details {
   .button {
     margin-bottom: $pad-l;
-    ~ .button { margin-left: $pad-l; }
+    ~ .button {
+      margin-left: 172px;
+    }
   }
   .arrow { width: 48px; }
 }
