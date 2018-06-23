@@ -117,6 +117,12 @@ ul {
   .button.round {
     border-radius: 480px; }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -138px;
+  visibility: hidden; }
+
 .shadowed {
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.075); }
 
@@ -317,6 +323,12 @@ ul {
   .button.round {
     border-radius: 480px; }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -138px;
+  visibility: hidden; }
+
 .shadowed {
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.075); }
 
@@ -411,6 +423,8 @@ header.desktop {
 .lr li {
   margin-top: 48px;
   padding: 28px; }
+  .lr li .anchor {
+    top: -256px; }
   .lr li .text {
     align-items: flex-start; }
   .lr li .spacer {

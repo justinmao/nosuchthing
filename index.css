@@ -117,6 +117,12 @@ ul {
   .button.round {
     border-radius: 480px; }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -138px;
+  visibility: hidden; }
+
 .shadowed {
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.075); }
 
@@ -251,6 +257,12 @@ ul {
     border-radius: 5px; }
   .button.round {
     border-radius: 480px; }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -138px;
+  visibility: hidden; }
 
 .shadowed {
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.075); }

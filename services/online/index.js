@@ -85,4 +85,6 @@
   for (tag of revealTags) {
     sr.reveal(tag.class, Object.assign(Object.assign({}, normalOptions), tag.options));
   }
+  // Smooth scroll
+  var scroll = new SmoothScroll('a[href*="#"]');
 })();
