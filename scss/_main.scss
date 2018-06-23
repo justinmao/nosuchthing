@@ -1,5 +1,5 @@
 // Imports
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700');
 // Variables
 $pad-l: 48px;
 $pad-m: 28px;
@@ -36,7 +36,7 @@ h2 {
 }
 h3 {
   max-width: 40em;
-  font: 700 22px 'Montserrat';
+  font: 600 22px 'Montserrat';
 }
 p {
   max-width: 48em;
