@@ -22,7 +22,7 @@ h3 {
   font: bold 22px 'Montserrat'; }
 
 p {
-  max-width: 52em;
+  max-width: 48em;
   font: 100 14px/18px 'Montserrat';
   color: #B2BAC9; }
   p b {
@@ -144,8 +144,7 @@ ul {
     width: 100%; }
 
 ul.faq {
-  width: 784px;
-  max-width: 49em; }
+  max-width: 784px; }
   ul.faq li {
     border-radius: 4px;
     padding: 28px; }
@@ -221,7 +220,7 @@ h3 {
   font: bold 22px 'Montserrat'; }
 
 p {
-  max-width: 52em;
+  max-width: 48em;
   font: 100 14px/18px 'Montserrat';
   color: #B2BAC9; }
   p b {
