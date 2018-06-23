@@ -366,7 +366,7 @@ header.desktop {
     header.desktop nav .button {
       align-self: center;
       color: white;
-      font-weight: 600; }
+      font-weight: 500; }
   header.desktop .submenu {
     max-height: 0px;
     opacity: 0;
