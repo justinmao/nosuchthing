@@ -144,13 +144,12 @@ ul {
     width: 100%; }
 
 ul.faq {
-  width: 100%;
+  width: 784px;
   max-width: 49em; }
   ul.faq li {
     border-radius: 4px;
     padding: 28px; }
     ul.faq li .question {
-      width: 100%;
       cursor: pointer;
       display: flex;
       justify-content: space-between;
@@ -177,11 +176,11 @@ ul.faq {
     border-radius: 4px;
     justify-content: space-between;
     text-align: center;
-    max-width: 25.5em; }
+    max-width: 408px; }
     .final .cards > .card ~ div {
       margin-left: 48px; }
     .final .cards > .card h2 {
-      max-width: 90%; }
+      padding: 0 28px; }
     .final .cards > .card .circle {
       margin-top: 28px;
       height: 180px;
