@@ -58,7 +58,7 @@
     justify-content: space-between;
     & ~ .card { margin-left: $pad-l; }
     h2 {
-      margin-top: 70px;
+      margin-top: 96px;
     }
     p {
       text-align: center;
@@ -75,7 +75,7 @@
     }
     .circle {
       position: absolute;
-      top: -96px;
+      top: -70px;
       left: calc(50% - 80px);
       height: 160px;
       width: 160px;
