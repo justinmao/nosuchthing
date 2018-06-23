@@ -14,27 +14,27 @@
   window.sr = ScrollReveal();
   var revealTags = [
     {
-      class: '.lr li:nth-child(odd) img',
+      class: '.lr li:nth-child(odd) .lr-circle',
       options: {
-        origin: 'left'
+        origin: 'right'
       }
     },
     {
       class: '.lr li:nth-child(odd) .text',
       options: {
-        origin: 'right'
+        origin: 'left'
       }
     },
     {
-      class: '.lr li:nth-child(even) img',
+      class: '.lr li:nth-child(even) .lr-circle',
       options: {
-        origin: 'right'
+        origin: 'left'
       }
     },
     {
       class: '.lr li:nth-child(even) .text',
       options: {
-        origin: 'left'
+        origin: 'right'
       }
     },
     {
