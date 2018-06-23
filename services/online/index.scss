@@ -4,8 +4,12 @@
 @import 'scss/header';
 // Details section
 .details {
+  .dropdown {
+    margin: 0;
+    * { flex-shrink: 0; }
+  }
+  .row { margin: $pad-l 0; }
   .button {
-    margin-bottom: $pad-l;
     ~ .button {
       margin-left: 172px;
     }

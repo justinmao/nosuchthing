@@ -126,7 +126,7 @@ ul {
   overflow-y: hidden; }
   .dropdown.hidden {
     max-height: 1000px;
-    transition: max-height 0.45s ease-in; }
+    transition: max-height 3.45s ease-in; }
   .dropdown > *:first-child {
     margin-top: 28px; }
 
@@ -326,7 +326,7 @@ ul {
   overflow-y: hidden; }
   .dropdown.hidden {
     max-height: 1000px;
-    transition: max-height 0.45s ease-in; }
+    transition: max-height 3.45s ease-in; }
   .dropdown > *:first-child {
     margin-top: 28px; }
 
@@ -394,10 +394,14 @@ header.desktop {
       opacity: 1;
       background: #F6F7F8; }
 
-.details .button {
-  margin-bottom: 48px; }
-  .details .button ~ .button {
-    margin-left: 172px; }
+.details .dropdown {
+  margin: 0; }
+  .details .dropdown * {
+    flex-shrink: 0; }
+.details .row {
+  margin: 48px 0; }
+.details .button ~ .button {
+  margin-left: 172px; }
 .details .arrow {
   width: 48px; }
 

@@ -152,7 +152,7 @@ ul {
   overflow-y: hidden;
   &.hidden {
     max-height: 1000px;
-    transition: max-height 0.45s ease-in;
+    transition: max-height 3.45s ease-in;
   }
   & > *:first-child {
     margin-top: $pad-m;
