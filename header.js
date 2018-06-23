@@ -6,7 +6,7 @@
   // Shadow listener
   document.addEventListener('scroll', () => {
     y = window.pageYOffset;
-    if (y > 150) {
+    if (y > 0) {
       desktopHeader.classList.add('lift');
     } else {
       desktopHeader.classList.remove('lift');
