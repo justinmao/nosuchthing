@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700");
 a {
   cursor: pointer;
   text-decoration: none;
@@ -11,15 +11,15 @@ h1, h2, h3 {
 
 h1 {
   max-width: 23em;
-  font: bold 48px 'Montserrat'; }
+  font: 700 48px 'Montserrat'; }
 
 h2 {
   max-width: 40em;
-  font: bold 28px 'Montserrat'; }
+  font: 700 28px 'Montserrat'; }
 
 h3 {
   max-width: 40em;
-  font: bold 22px 'Montserrat'; }
+  font: 700 22px 'Montserrat'; }
 
 p {
   max-width: 48em;
@@ -88,7 +88,7 @@ ul {
   padding: 0.3em 2em;
   border-radius: 4px;
   color: white;
-  font: 600 22px 'Montserrat';
+  font: 500 22px 'Montserrat';
   text-decoration: none;
   display: block; }
   .button.red {
@@ -146,15 +146,15 @@ h1, h2, h3 {
 
 h1 {
   max-width: 23em;
-  font: bold 48px 'Montserrat'; }
+  font: 700 48px 'Montserrat'; }
 
 h2 {
   max-width: 40em;
-  font: bold 28px 'Montserrat'; }
+  font: 700 28px 'Montserrat'; }
 
 h3 {
   max-width: 40em;
-  font: bold 22px 'Montserrat'; }
+  font: 700 22px 'Montserrat'; }
 
 p {
   max-width: 48em;
@@ -223,7 +223,7 @@ ul {
   padding: 0.3em 2em;
   border-radius: 4px;
   color: white;
-  font: 600 22px 'Montserrat';
+  font: 500 22px 'Montserrat';
   text-decoration: none;
   display: block; }
   .button.red {
